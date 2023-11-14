@@ -22,7 +22,7 @@ source deepopacitynet/bin/activate
 We provided our custom code to preprocesss color fundus photos with sample examples in the "Preprocessing" folder.
 
 ### The trained models
-You can access the trained DeepOpacityNet model from the 'Model' folder. This model was trained on our development (i.e., internal) dataset. Also, we provided the codes used to generate the models used in the study in the "Model Codes" folder.
+You can access the trained DeepOpacityNet as well as transfer-learning based models from the "Models" folder. These models were trained on our development (i.e., internal) dataset. Also, we provided the codes used to develop these models in the "Scripts" folder.
 
 ### Sample images
 We included the subset of the test set as sample preprocessed images. This subset was used for the subjective grading in our study.
@@ -30,7 +30,7 @@ We included the subset of the test set as sample preprocessed images. This subse
 
 ### Run the script
 ```
-python classify_data.py --model_folder=Model --image_folder=CFP --output_file=predictions.csv
+python classify_data.py --model_folder=Models --image_folder=CFP --output_file=predictions.csv
 ```
 Please note that models and images are provided in the repository
 
@@ -59,4 +59,6 @@ The views expressed herein are those of the authors and do not reflect the offic
 
 
 ## Cite our work
-Elsawy, A*, Keenan, T.D*., Chen, Q*., ..., Chew, E.Y†, and Lu, Z†. 2023. [A Deep Network DeepOpacityNet for Detection of Cataracts from Color Fundus Photographs](https://www.nature.com/commsmed/). Commuincations Medicine.
+Please, if you used our trained models, codes, or dataset, cite our work.
+
+Amr Elsawy, Tiarnan D. L. Keenan, Qingyu Chen, Alisa T. Thavikulwat, Sanjeeb Bhandari, Ten Cheer Quek, Jocelyn Hui Lin Goh, Yih-Chung Tham, Ching-Yu Cheng, Emily Y. Chew, and Zhiyong Lu. [A Deep Network DeepOpacityNet for Detection of Cataracts from Color Fundus Photographs](https://www.nature.com/commsmed/). Commuincations Medicine. 2023.

@@ -28,7 +28,7 @@ import preprocessing
 import trained_model
 
 
-def classify_main(model_folder='Model', img_folder='CFP', output='predictions.csv'):
+def classify_main(model_folder='Models', img_folder='CFP', output='predictions.csv'):
             
     print('Loading DeepOpacityNet')
 
